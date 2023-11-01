@@ -12,10 +12,24 @@ body {
   text-align: center;
   font-size: 2rem;
 }
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+a:hover {
+  color: #344986;
+}
 nav {
   text-align: center;
   width: 100%;
+  /* overflow: hidden; */
+
+  position: fixed; /* Set the navbar to fixed position */
+  background-color: #3576a7;
+  top: 0; /* Position the navbar at the top of the page */
 }
+
 ul {
   list-style-type: none;
   margin: 0;
