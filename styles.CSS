@@ -22,12 +22,14 @@ a:hover {
 }
 nav {
   text-align: center;
-  width: 100%;
+  width: 80%;
   /* overflow: hidden; */
 
   position: fixed; /* Set the navbar to fixed position */
   background-color: #3576a7;
   top: 0; /* Position the navbar at the top of the page */
+
+  z-index: 2;
 }
 
 ul {
@@ -43,4 +45,29 @@ li {
 a {
   /* display: block; */
   padding: 8px;
+}
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left {
+  text-align: left;
+  /* padding-right: 25%; */
+}
+.middle {
+  text-align: center;
+  /* padding: 0 10%; */
+}
+.right {
+  text-align: right;
+  /* padding-left: 25%; */
+}
+
+.left,
+.middle,
+.right {
+  font-size: large;
+  width: 30%;
 }
