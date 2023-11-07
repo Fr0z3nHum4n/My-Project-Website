@@ -88,3 +88,27 @@ a {
   background-color: #344986;
   color: white;
 }
+.about > h1 {
+  text-align: center;
+}
+.about > p {
+  text-align: center;
+  font-size: large;
+  border-style: groove;
+  padding: 30px;
+  border-color: #344986;
+}
+
+hr {
+  border-color: #344986;
+}
+
+.frn {
+  border-style: groove;
+  padding: 30px;
+  border-color: #344986;
+  width: 550px;
+}
+.input-box {
+  width: 500px;
+}
