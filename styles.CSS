@@ -6,8 +6,27 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
+  background-image: url("Beach.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
+.intro,
+.resume,
+.project,
+.about,
+.contact,
+.created {
+  padding: 30px 0 30px 0;
+  background-color: #15a3c7;
+}
+.intro,
+.resume,
+.project {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .intro {
   text-align: center;
   font-size: 2rem;
@@ -64,7 +83,11 @@ a {
   text-align: right;
   /* padding-left: 25%; */
 }
-
+.resume-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .left,
 .middle,
 .right {
@@ -102,13 +125,22 @@ a {
 hr {
   border-color: #344986;
 }
-
+.contact > h1 {
+  text-align: center;
+}
 .frn {
   border-style: groove;
   padding: 30px;
   border-color: #344986;
   width: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .input-box {
   width: 500px;
+}
+.created {
+  font-size: smaller;
+  text-align: center;
 }
